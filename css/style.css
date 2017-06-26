@@ -84,3 +84,20 @@ a:hover{
   text-decoration: none;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px){
+
+
+.images{
+  display: flex;
+  flex-wrap: wrap; 
+  padding: 20px;
+  max-height: 40%;
+}
+
+.foot{
+  max-width: 100%
+}
+
+}
